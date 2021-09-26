@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.3ee8c3ad.chunk.css",
+    "main.js": "/portfolio/static/js/main.4b844a07.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.4b844a07.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.7c9408e8.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.7c9408e8.js.map",
+    "static/js/2.760fafa9.chunk.js": "/portfolio/static/js/2.760fafa9.chunk.js",
+    "static/js/2.760fafa9.chunk.js.map": "/portfolio/static/js/2.760fafa9.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.3ee8c3ad.chunk.css.map": "/portfolio/static/css/main.3ee8c3ad.chunk.css.map",
+    "static/js/2.760fafa9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.760fafa9.chunk.js.LICENSE.txt",
+    "static/media/coffee-cup.94f4050f.svg": "/portfolio/static/media/coffee-cup.94f4050f.svg",
+    "static/media/guitar.19e2482e.svg": "/portfolio/static/media/guitar.19e2482e.svg",
+    "static/media/svg-1.svg": "/portfolio/static/media/svg-1.5e251f0c.svg",
+    "static/media/violin.b1e0977d.svg": "/portfolio/static/media/violin.b1e0977d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c9408e8.js",
+    "static/js/2.760fafa9.chunk.js",
+    "static/css/main.3ee8c3ad.chunk.css",
+    "static/js/main.4b844a07.chunk.js"
+  ]
+}
