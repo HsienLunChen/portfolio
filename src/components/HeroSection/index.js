@@ -9,7 +9,8 @@ import {
   SocialIconLinks,
   SocialIcons,
   ArrowForward,
-  ArrowRight
+  ArrowRight,
+  ResumeLinks
 } from './HeroElements';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import {Button} from '../ButtonElements';
@@ -28,10 +29,11 @@ const HeroSection = () => {
         <HeroH1>Hello, I'm Hsien-Lun</HeroH1>
         <HeroP>An enthusiastic software engineer from Paul G. Allen School of Computer Science & Engineering at the University of Washington, Seattle</HeroP>
         <HeroBtnWrapper>
-          <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
-            View Resume{hover? <ArrowForward/> : <ArrowRight/>}
+            <ResumeLinks  href="https://drive.google.com/file/d/1Hx51wNaYZzbIQZOJyjSVjRR9KAZdMal3/view?usp=sharing">
+              View Resume
 
-          </Button>
+            </ResumeLinks>
+
         </HeroBtnWrapper>
         <HeroBtnWrapper>
           <SocialIcons>

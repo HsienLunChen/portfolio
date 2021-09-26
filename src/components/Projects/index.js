@@ -27,8 +27,11 @@ const Projects = () => {
       <ProjectsWrapper>
         <ProjectsCard>
           <ProjectsIcon src={icon1}/>
-          <ProjectsH2 >DDPG and LSTM based Audio to Body Generation</ProjectsH2>
-          <ProjectsP>this is paragraph 1</ProjectsP>
+          <ProjectsH2 >DDPG + LSTM Audio to Body Generation</ProjectsH2>
+          <ProjectsP>
+            This is a DDPG and LSTM integrated model that is trained with body skeleton movement of violinist and the MFCC feature of the
+            audio file. This model is used to predict and animate a virtual violinist's movement given the audio file of a violin piece.
+          </ProjectsP>
           {/* <SocialIcons>
             <SocialWrapper>
               <SocialP>Github Repo</SocialP>
@@ -40,8 +43,11 @@ const Projects = () => {
         </ProjectsCard>
         <ProjectsCard>
           <ProjectsIcon src={icon2}/>
-          <ProjectsH2>Martin Guitar Trader: a Martin Guitar trading e-Commerce site</ProjectsH2>
-          <ProjectsP>this is paragraph 2</ProjectsP>
+          <ProjectsH2>Martin Guitar Trader</ProjectsH2>
+          <ProjectsP>
+            Martin Guitar Trader is a e-commerce trading site that allows user to browse and purchase their desired martin acoustic guitars.
+            This site is created with React.js and Redux, styled using styled-components, connected with a MongoDB database.
+          </ProjectsP>
           <SocialIcons>
             <SocialWrapper>
               <SocialP>Github Repo</SocialP>
@@ -54,7 +60,10 @@ const Projects = () => {
         <ProjectsCard>
           <ProjectsIcon src={icon3}/>
           <ProjectsH2 >NextCafe (In Progress)</ProjectsH2>
-          <ProjectsP>NextCafe is a </ProjectsP>
+          <ProjectsP>
+            NextCafe is a mobile website Taipei coffee shops searching. I worked as a backend engineer to clean the CafeNomad coffee
+            shop dataset using Google Place API and handle the HTTP requests from the client side using Node.js with a SQLite database.
+          </ProjectsP>
           {/* <SocialIcons>
             <SocialWrapper>
               <SocialP>Github Repo</SocialP>
@@ -65,10 +74,10 @@ const Projects = () => {
           </SocialIcons> */}
           <SocialIcons>
             <SocialWrapper>
-              <SocialP>Live Site</SocialP>
-              <SocialIconLinks href='https://nextcafetw.com' target="_blank" aria-label="Github">
+              <SocialP>Live Site: nextcafetw.com</SocialP>
+              {/* <SocialIconLinks href='https://nextcafetw.com' target="_blank" aria-label="Github">
                 <FaCoffee />
-              </SocialIconLinks>
+              </SocialIconLinks> */}
             </SocialWrapper>
           </SocialIcons>
         </ProjectsCard>

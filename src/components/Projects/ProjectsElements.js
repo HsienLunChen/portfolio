@@ -8,12 +8,12 @@ export const ProjectsContainer = styled.div`
   align-items: center;
   background: #010606;
 
-  @media screen and (max-width: 768px) {
-    height: 1100px;
+  @media screen and (max-width: 1000px) {
+    height: 1300px;
   }
 
   @media screen and (max-width: 400px) {
-    height: 1300px;
+    height: 1400px;
   }
 `
 
@@ -41,8 +41,8 @@ export const ProjectsCard = styled.div`
   flex-direction: column;
   align-items: center;
   border-radius: 10px;
-  height: 300px;
-  max-height: 400px;
+  height: 350px;
+  max-height: 350px;
   padding: 20px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
@@ -77,7 +77,7 @@ export const ProjectsH2 = styled.h2`
 `
 
 export const ProjectsP = styled.p`
-  font-size: 1rem;
+  font-size: 0.8rem;
   text-align: center;
 `
 

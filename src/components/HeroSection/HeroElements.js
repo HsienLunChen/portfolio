@@ -65,8 +65,24 @@ export const SocialIcons = styled.div`
 `
 
 export const SocialIconLinks = styled.a`
-  color: #fff;
+  color: #F5B301;
   font-size: 2rem;
+`
+
+export const ResumeLinks = styled.a`
+  background: #F5B301;
+  border-radius: 50px;
+  padding: 8px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #FFF;
+
+  &:hover {
+    background: #FFF;
+    color: #000;
+    padding: 12px 24px;
+    transition: all 0.2s ease-in-out;
+  }
 `
 
 
@@ -78,4 +94,26 @@ export const ArrowForward = styled(MdArrowForward)`
 export const ArrowRight = styled(MdKeyboardArrowRight)`
   margin-left: 8px;
   font-size: 1rem;
+`
+
+export const Btn = styled.button`
+  border-radius: 50px;
+  background: ${({primary}) => (primary ? '#F5B301' : '#010606')};
+  white-space: nowrap;
+  padding: ${({big}) => (big ? '14px 48px' : '12px 30px')};
+  color: ${({dark}) => (dark ? '#010606' : '#fff')};
+  font-size: ${({fontBig}) => (fontBig ? '20px' : '16px')};
+
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    background: ${({primary}) => (primary ? '#fff' : '#F5B301')};
+  }
 `
