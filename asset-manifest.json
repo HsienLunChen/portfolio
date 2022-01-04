@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3ee8c3ad.chunk.css",
-    "main.js": "/portfolio/static/js/main.5155c5ae.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.5155c5ae.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.7df660c8.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.7df660c8.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.7c9408e8.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.7c9408e8.js.map",
     "static/js/2.bba6dc5d.chunk.js": "/portfolio/static/js/2.bba6dc5d.chunk.js",
@@ -11,7 +11,9 @@
     "static/css/main.3ee8c3ad.chunk.css.map": "/portfolio/static/css/main.3ee8c3ad.chunk.css.map",
     "static/js/2.bba6dc5d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.bba6dc5d.chunk.js.LICENSE.txt",
     "static/media/coffee-cup.94f4050f.svg": "/portfolio/static/media/coffee-cup.94f4050f.svg",
+    "static/media/food.caced5ed.svg": "/portfolio/static/media/food.caced5ed.svg",
     "static/media/guitar.19e2482e.svg": "/portfolio/static/media/guitar.19e2482e.svg",
+    "static/media/lock.17abee60.svg": "/portfolio/static/media/lock.17abee60.svg",
     "static/media/svg-1.svg": "/portfolio/static/media/svg-1.5e251f0c.svg",
     "static/media/violin.b1e0977d.svg": "/portfolio/static/media/violin.b1e0977d.svg"
   },
@@ -19,6 +21,6 @@
     "static/js/runtime-main.7c9408e8.js",
     "static/js/2.bba6dc5d.chunk.js",
     "static/css/main.3ee8c3ad.chunk.css",
-    "static/js/main.5155c5ae.chunk.js"
+    "static/js/main.7df660c8.chunk.js"
   ]
 }
