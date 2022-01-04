@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ProjectsContainer = styled.div`
-  height: 800px;
+  height: 900px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -79,6 +79,14 @@ export const ProjectsH2 = styled.h2`
 export const ProjectsP = styled.p`
   font-size: 0.8rem;
   text-align: center;
+`
+
+export const ProjectLink = styled.a`
+  font-size: 0.8rem;
+  text-align: center;
+  &:visited {
+    color: black;
+  }
 `
 
 export const SocialIcons = styled.div`

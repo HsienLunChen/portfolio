@@ -7,6 +7,7 @@ import {
   ProjectsIcon,
   ProjectsH2,
   ProjectsP,
+  ProjectLink,
   SocialIconLinks,
   SocialIcons,
   SocialWrapper,
@@ -19,12 +20,44 @@ import icon1 from '../../images/violin.svg';
 import icon2 from '../../images/guitar.svg';
 
 import icon3 from '../../images/coffee-cup.svg';
+import icon4 from '../../images/food.svg';
+import icon5 from '../../images/lock.svg';
 
 const Projects = () => {
   return (
     <ProjectsContainer id='projects'>
       <ProjectsH1>Projects</ProjectsH1>
       <ProjectsWrapper>
+      <ProjectsCard>
+          <ProjectsIcon src={icon4}/>
+          <ProjectsH2 >Food Delivery</ProjectsH2>
+          <ProjectsP>
+          This is a cross-platform react-native app for food delivery services which uses google map api and google direction api to show the delivery direction. This project creates the UI of a food delivery app which allows user to select items to order from different restaurants.
+          </ProjectsP>
+          <SocialIcons>
+            <SocialWrapper>
+              <ProjectLink href='https://github.com/HsienLunChen/Food-Delivery-RN'>Github Repo</ProjectLink>
+              <SocialIconLinks href='https://github.com/HsienLunChen/Food-Delivery-RN' target="_blank" aria-label="Github">
+                <FaGithub />
+              </SocialIconLinks>
+            </SocialWrapper>
+          </SocialIcons>
+        </ProjectsCard>
+        <ProjectsCard>
+          <ProjectsIcon src={icon5}/>
+          <ProjectsH2 >Google Session Control</ProjectsH2>
+          <ProjectsP>
+          This project is an experiment of the google authentication process. This project allows its user to sign in and sign out using his or her google account.
+          </ProjectsP>
+          <SocialIcons>
+            <SocialWrapper>
+              <ProjectLink href='https://github.com/HsienLunChen/google-oauth'>Github Repo</ProjectLink>
+              <SocialIconLinks href='https://github.com/HsienLunChen/google-oauth' target="_blank" aria-label="Github">
+                <FaGithub />
+              </SocialIconLinks>
+            </SocialWrapper>
+          </SocialIcons>
+        </ProjectsCard>
         <ProjectsCard>
           <ProjectsIcon src={icon1}/>
           <ProjectsH2 >DDPG + LSTM Audio to Body Generation</ProjectsH2>
@@ -32,14 +65,11 @@ const Projects = () => {
             This is a DDPG and LSTM integrated model that is trained with body skeleton movement of violinist and the MFCC feature of the
             audio file. This model is used to predict and animate a virtual violinist's movement given the audio file of a violin piece.
           </ProjectsP>
-          {/* <SocialIcons>
+          <SocialIcons>
             <SocialWrapper>
-              <SocialP>Github Repo</SocialP>
-              <SocialIconLinks href='https://github.com/HsienLunChen' target="_blank" aria-label="Github">
-                <FaGithub />
-              </SocialIconLinks>
+              <ProjectLink href="https://archives.ismir.net/ismir2021/latebreaking/000009.pdf">Paper Link</ProjectLink>
             </SocialWrapper>
-          </SocialIcons> */}
+          </SocialIcons>
         </ProjectsCard>
         <ProjectsCard>
           <ProjectsIcon src={icon2}/>
@@ -50,7 +80,7 @@ const Projects = () => {
           </ProjectsP>
           <SocialIcons>
             <SocialWrapper>
-              <SocialP>Github Repo</SocialP>
+              <ProjectLink href='https://github.com/HsienLunChen/eCommerce-shopping-cart'>Github Repo</ProjectLink>
               <SocialIconLinks href='https://github.com/HsienLunChen/eCommerce-shopping-cart' target="_blank" aria-label="Github">
                 <FaGithub />
               </SocialIconLinks>
